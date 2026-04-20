@@ -1,0 +1,285 @@
+/* định dạng body */
+
+body{
+    margin: 0;
+    font-family:Arial, sans-serif;
+    background-color: white;
+}
+
+/* định dạng header */
+.header-area{
+    background-color: black;
+    color: rgb(206, 203, 247);
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img{
+    height: 50px;
+    width: auto;
+}
+
+.menu{
+    list-style:none;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items{
+    position: relative;
+    margin: 0 20px;
+}
+
+.menu-items a{
+    text-decoration: none;
+    color:white;
+    padding: 15px 15px;
+    font-weight: 800;
+    font-size: clamp(11px,1vw,16px);
+}
+
+.menu-items a:hover{
+    color:red;
+}
+
+.datve{
+    display: flex;
+    align-items: center;
+}
+
+.datve-btn{
+    color: rgb(0, 229, 255);
+    border: 1px solid rgb(0, 229, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.datve-btn:hover{
+    background-color: rgb(0, 229, 255);
+    color: rgb(255, 0, 0);
+}
+
+.home-banner{ background-image: url('hinhanhrapphim/anh rap phim.jpg');
+    height: 339px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color : white; }
+
+.banner-content h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.movie-title{
+    text-align: center;   
+    font-size: 25px;       
+    font-weight: bold;     
+    margin-top: 15px;    
+    color: black; 
+}
+
+.time{
+    text-align: center;   
+    font-size: 20px;       
+    font-weight:lighter;     
+    margin-top: auto;    
+    color: silver; 
+}
+
+.gallery-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.gallery-item{
+   position: relative;
+   margin: 5px;
+   overflow: hidden;
+   flex: 1 1 250px;
+   max-width: 250px;
+   transition: transform 0.5s ease-in-out;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.gallery-item img{
+    width: 100%;
+    height: 350px;      
+    object-fit: cover;   /* cắt ảnh cho vừa khung */
+    border-radius: 10px;
+}
+
+.gallery-item:hover{
+    transform: scale(1.05);
+}
+
+.gallery-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.footer-area{
+    background-color: black;
+    color: rgb(206,203,247);
+    padding: 30px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer-left img{
+    width: 120px;
+    height: auto;
+}
+
+.footer-content{
+    width: 50%;
+}
+
+.footer-content h1{
+    margin-top: 0;
+}
+
+.footer-right{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.doitac img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px;
+    background: white;
+    transition: 0.3s; /*hiệu ứng mượt*/
+    cursor: pointer;
+}
+
+.doitac img:hover{
+    background: red;
+    border-color: red;
+    transform: scale(1.15);
+}
+
+
+
+@media (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    align-items: center;
+}
+
+.menu{
+    flex-direction:column;
+    align-items:center;
+    width: 100%;
+}
+
+.menu-items{
+    margin:10px 0;
+    text-align: center;
+}
+
+.menu-items a{
+    font-size:14px;
+    display: block;
+    width: 100%;
+}
+
+
+.banner-content h1{
+    font-size:24px;
+    text-align: center;
+}
+
+.gallery-content{
+    gap: 10px;
+}
+
+.gallery-item{
+    flex: 0 0 48%;
+    max-width:48%;
+}
+
+.gallery-item img{
+    height: 220px;
+}
+
+.datve{
+    margin-top:10px;
+}
+
+.container{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+/* logo bên trái */
+.footer-left{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-left img{
+    width: 80px;
+}
+
+/* nội dung giữa */
+.footer-content{
+    width: 100%;
+    font-size: clamp(12px,2vw,16px);
+}
+
+.footer-content h1{
+    font-size: clamp(16px,3vw,22px);
+}
+
+/* logo đối tác */
+.footer-right{
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* logo tròn */
+.doitac img{
+    width: 60px;
+    height: 60px;
+}
+
+}
+
+
