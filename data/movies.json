@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Thỏ ơi!!",
+        "releaseDate": "17/02/2026",
+        "image": "hinhanhrapphim/Tho oi.jpg",
+        "price": 85000,
+        "genre": "Hài hước, tâm lý",
+        "isHot": true
+    },
+    {
+        "id": 2,
+        "title": "Nhà mình đi thôi",
+        "releaseDate": "26/02/2026",
+        "image": "hinhanhrapphim/Nha minh di thoi.png",
+        "price": 90000,
+        "genre": "Hài hước, Gia đình",
+        "isHot": false
+    },
+    {
+        "id": 3,
+        "title": "Nhà ba tôi một phòng",
+        "releaseDate": "17/02/2026",
+        "image": "hinhanhrapphim/nha ba toi mot phong.png",
+        "price": 85000,
+        "genre": "Tâm lý, Cảm động",
+        "isHot": false
+    },
+    {
+        "id": 4,
+        "title": "Mùi Phở",
+        "releaseDate": "17/02/2026",
+        "image": "hinhanhrapphim/Mui pho.png",
+        "price": 100000,
+        "genre": "Tâm lý, Ẩm thực",
+        "isHot": true
+    },
+    {
+        "id": 5,
+        "title": "Cảm ơn người đã thức cùng tôi",
+        "releaseDate": "27/02/2026",
+        "image": "hinhanhrapphim/Cam on nguoi da thuc cung toi.png",
+        "price": 80000,
+        "genre": "Tâm lý, Tình cảm",
+        "isHot": false
+    },
+    {
+        "id": 6,
+        "title": "Tài",
+        "releaseDate": "06/03/2026",
+        "image": "hinhanhrapphim/Tai.png",
+        "price": 95000,
+        "genre": "Hành động, Tâm lý",
+        "isHot": true
+    },
+    {
+        "id": 7,
+        "title": "Quỷ Nhập Tràng 2",
+        "releaseDate": "13/03/2026",
+        "image": "hinhanhrapphim/QuyNhapTrang2.png",
+        "price": 110000,
+        "genre": "Kinh dị, Tâm linh",
+        "isHot": false
+    },
+    {
+        "id": 8,
+        "title": "Cô Dâu",
+        "releaseDate": "13/03/2026",
+        "image": "hinhanhrapphim/CoDau.png",
+        "price": 105000,
+        "genre": "Tâm lý, Hài hước, Gia đình",
+        "isHot": false
+    }
+]
